@@ -21,6 +21,7 @@ public final class AppUtils {
 
     public static void showToast(Context context, @StringRes int text, boolean isLong) {
         showToast(context, context.getString(text), isLong);
+        //
     }
 
     public static void showToast(Context context, String text, boolean isLong) {
