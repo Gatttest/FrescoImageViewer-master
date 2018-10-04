@@ -26,6 +26,7 @@ public final class AppUtils {
 
     public static void showToast(Context context, String text, boolean isLong) {
         Toast.makeText(context, text, isLong ? Toast.LENGTH_LONG : Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "123", isLong ? Toast.LENGTH_LONG : Toast.LENGTH_SHORT).show();
     }
 
     public static void showInfoSnackbar(final View view, final @StringRes int text, final boolean isLong) {
